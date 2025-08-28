@@ -14,6 +14,7 @@ import Footer from "../../components/Footer/Footer";
 const Home = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50 font-sans">
+      
       {/* Navbar */}
       <header className="w-full sticky top-0 z-50 shadow-md bg-white">
         <Navbar />
