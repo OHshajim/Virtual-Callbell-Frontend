@@ -23,13 +23,14 @@ const AdminTransaction = () => {
     const txnDate = new Date(txn?.createdAt); // <-- ISO string works here
 
     const matchesSearch =
-      txn?._id.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      txn?.plan.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      txn?.amount.toString().includes(searchTerm) ||
-      txn?.createdAt.toString().includes(searchTerm) ||
-      txn?.paymentMethod.toString().includes(searchTerm) ||
-      txn?.author?.name?.toString()?.includes(searchTerm) ||
-      txn?.author?.email?.toString()?.includes(searchTerm);
+        txn?._id.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        txn?.plan.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        txn?.amount.toString().includes(searchTerm) ||
+        txn?.createdAt.toString().includes(searchTerm) ||
+        txn?.paymentMethod.toString().includes(searchTerm) ||
+        txn?.author?.name?.toString()?.includes(searchTerm) ||
+        txn?.author?.address?.toString()?.includes(searchTerm) ||
+        txn?.author?.email?.toString()?.includes(searchTerm);
 
     const matchesType = filterType === "All" ? true : txn.status === filterType;
 
