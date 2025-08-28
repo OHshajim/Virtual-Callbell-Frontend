@@ -59,7 +59,7 @@ const UserDashboardNavLinks = () => {
     <>
       <div className="flex flex-row justify-between items-center mb-8">
         <ArrowLeft className="cursor-pointer border" onClick={handleBack} />
-        <h1 className="text-2xl font-bold">Call Bell</h1>
+        <h1 className="text-2xl font-bold">CallBell</h1>
       </div>
       <ul className="space-y-1">{ulLinks}</ul>
     </>

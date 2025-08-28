@@ -66,7 +66,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to={'/'} className="btn btn-ghost text-xl font-bold text-white font-serif">
-          Call Bell
+          CallBell
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

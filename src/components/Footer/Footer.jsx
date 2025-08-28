@@ -6,8 +6,8 @@ const Footer = () => {
       <footer className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Brand Section */}
         <div>
-          <img src="/icon.png" alt="Call Bell Logo" className="h-12 mb-4 " />
-          <h2 className="text-xl font-semibold text-white font-serif">Call Bell</h2>
+          <img src="/icon.png" alt="CallBell Logo" className="h-12 mb-4 " />
+          <h2 className="text-xl font-semibold text-white font-serif">CallBell</h2>
           <p className="mt-3 text-sm leading-6">
             Tara Tower, Polytechnic Crossing, Jaunpur (UP) 222002 <br />
             <span className="block mt-1">📞 +91-8299065387</span>

@@ -165,7 +165,7 @@ const Home = () => {
           Ready to Experience Seamless Calls?
         </h2>
         <p className="text-lg sm:text-xl mb-8 max-w-2xl mx-auto">
-          Join Call Bell today and enjoy professional, instant, and
+          Join CallBell today and enjoy professional, instant, and
           secure calling features.
         </p>
         <div className="flex justify-center gap-4">

@@ -20,7 +20,7 @@ const GuestModal = () => {
       <dialog id="my_modal_1" className="modal">
         <div className="modal-box bg-white">
           <h2 className="text-2xl font-bold text-gray-800 mb-3">
-            👋 Welcome to Call Bell!
+            👋 Welcome to CallBell!
           </h2>
           <p className="text-gray-600 mb-4">
             We’re happy to have you here. Enjoy exploring our website!
