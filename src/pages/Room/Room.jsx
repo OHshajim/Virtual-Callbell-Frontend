@@ -39,7 +39,11 @@ export default function RoomPage() {
       let mounted = true;
       const connect = async () => {
         if (mounted) {
-          await room.connect(liveKitUrl, token);
+            await room.connect(liveKitUrl, token);
+
+            // ✅ Automatically turn on mic (and optionally camera)
+            room.localParticipant.setMicrophoneEnabled(true);
+            // room.localParticipant.setCameraEnabled(true); // if you want video auto-on
         }
       };
       connect();
